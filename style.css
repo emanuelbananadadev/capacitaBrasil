@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, h2, ul, li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 16px;
+
+    margin-bottom: 10px;
+
+}
+
+.apresentacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+
+    background-color: rgb(219, 208, 208)
+}
+
+.apresentacao img {
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+}
+
+.apresentacao h1 {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.main {
+    text-align: center;
+    margin-top: 15px;
+
+}
+
+.tecnologias ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5px;
+
+    list-style: none;
+
+    border-top: 1px solid black;
+
+}
+
+.soft {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.soft ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.profissional {
+    margin-top: 10px;
+}
+
+.profissional ul {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 5px;
+
+    margin-bottom: 10px;
+}
